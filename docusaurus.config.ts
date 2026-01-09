@@ -134,6 +134,24 @@ const config: Config = {
           ],
         },
         {
+          type: 'dropdown',
+          sidebarId: 'docusSidebar',
+          position: 'left',
+          label: 'ROS 开发',
+          items: [
+            {
+              type: 'doc',
+              label: 'ROS1 开发',
+              docId: 'ros/ros1/README',
+            },
+            {
+              type: 'doc',
+              label: 'ROS2 开发',
+              docId: 'ros/ros2/README',
+            },
+          ],
+        },
+        {
           type: 'html',
           position: 'right',
           value: `<a href="/join-us" class="navbar__item navbar__link nav-icon-join" aria-label="加入我们"><img src="/img/join-us.svg" alt="加入我们" style="height:20px;vertical-align:middle;margin-right:8px;"/><span class="nav-item-text">加入我们</span></a>`,
